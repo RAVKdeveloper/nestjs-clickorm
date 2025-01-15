@@ -6,7 +6,13 @@
     "dev": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build"
   },
-  "keywords": [],
+  "keywords": [
+    "nestjs-clickorm",
+    "clickorm",
+    "nest clickhouse",
+    "nest-clickhouse",
+    "nestjs-"
+  ],
   "publishConfig": {
     "access": "public"
   },
