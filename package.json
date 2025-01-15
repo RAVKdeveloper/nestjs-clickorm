@@ -1,0 +1,34 @@
+{
+  "name": "nestjs-clickorm",
+  "version": "0.1.3",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build"
+  },
+  "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Kirill Shcherbakov",
+    "email": "shcherbakovkirill2@gmail.com"
+  },
+  "engines": {
+    "node": ">=16.13.0"
+  },
+  "license": "MIT",
+  "description": "Nest js library to clickorm-clickhouse",
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.3"
+  },
+  "peerDependencies": {
+    "clickorm-clickhouse": "^0.1.0",
+    "@nestjs/common": "^10.4.15",
+    "@nestjs/core": "^8.0.0 || ^9.0.0 || ^10.0.0",
+    "reflect-metadata": "^0.1.13 || ^0.2.0",
+    "rxjs": "^7.2.0"
+  }
+}
